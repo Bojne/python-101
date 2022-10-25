@@ -69,24 +69,24 @@ with tab3:
 
     st.markdown('[![Star History Chart](https://api.star-history.com/svg?repos=streamlit/streamlit&type=Date)](https://star-history.com/#streamlit/streamlit&Date)')
 
-# with tab4: 
-#     import plotly.graph_objects as go
-#     import pandas as pd
-#     # Read data from a csv
-#     z_data = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/api_docs/mt_bruno_elevation.csv')
-#     fig = go.Figure(data=[go.Surface(z=z_data.values)])
-#     fig.update_layout(title='Mt Bruno Elevation', autosize=False,
-#                     width=700, height=700,
-#                     margin=dict(l=65, r=50, b=65, t=90))
+with tab4: 
+    import plotly.graph_objects as go
+    import pandas as pd
+    # Read data from a csv
+    z_data = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/api_docs/mt_bruno_elevation.csv')
+    fig = go.Figure(data=[go.Surface(z=z_data.values)])
+    fig.update_layout(title='Mt Bruno Elevation', autosize=False,
+                    width=700, height=700,
+                    margin=dict(l=65, r=50, b=65, t=90))
 
-#     st.plotly_chart(fig)
+    st.plotly_chart(fig)
 
 
-# with tab5:
-#     df = pd.DataFrame(
-#     numpy.random.randn(1000, 2) / [50, 50] + [25.0330, 121.5654],
-#     columns=['lat', 'lon'])
-#     st.map(df)
+with tab5:
+    df = pd.DataFrame(
+    numpy.random.randn(1000, 2) / [50, 50] + [25.0330, 121.5654],
+    columns=['lat', 'lon'])
+    st.map(df)
 
 
 
