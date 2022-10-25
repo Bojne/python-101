@@ -79,7 +79,7 @@ with tab4:
                     width=700, height=700,
                     margin=dict(l=65, r=50, b=65, t=90))
 
-    st.plotly_chart(fig)
+    st.plotly_chart(fig, sharing='streamlit')
 
 
 with tab5:
