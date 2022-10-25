@@ -4,14 +4,9 @@ import random
 from datetime import datetime
 
 
-
-
 t = time()
 st.title(ctime(t))
-
-
 st.button('Refresh')
-
 
 # A list of the emoji we want to randomize.
 colorful_emoji_list = ['👻', '👀', '☁️', '🍚', '🥚', '🥛', '🏐', '🗯','❤️', '👹', '💋', '💃', '🍎', '🌶', '🚘', '🌹','🌝', '🐥', '🍋', '🧀', '🚜', '💛', '📒', '👂','👕', '🦋', '🐬', '💦', '🚙', '💎', '💙', '❄️','🎃', '🦁', '🦀', '🍊', '🏀', '📙', '🧡', '🥕','😈', '👾', '☂️', '🍆', '🍇', '🔮', '💜', '🕺','🤢', '🐸', '🦖', '🍀', '🍏', '🎾', '💚', '🥒']
@@ -89,6 +84,10 @@ with tab5:
     st.map(df)
 
 
+
+st.markdown("""
+[![website](https://github.com/codeSTACKr/codeSTACKr/raw/master/img/instagram-light.svg)](https://instagram.com/yuehan__)
+""")
 
 # st.checkbox('I agree')
 # st.radio('Pick one', ['cats', 'dogs'])
