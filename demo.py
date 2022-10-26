@@ -35,8 +35,8 @@ with tab1:
 with tab2: 
     import numpy
     import random
-    size = st.slider('Pick a number', 1, 100) 
-    repeated = numpy.repeat(human_emoji_list, size)
+    size = st.slider('選一個數字', 1, 100) 
+    repeated = numpy.repeat(colorful_emoji_list, size)
     random.shuffle(repeated)
     long_emoji_string = ''.join(repeated)
     st.subheader(long_emoji_string)
