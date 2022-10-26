@@ -1,6 +1,10 @@
 import streamlit as st 
 
+<<<<<<< HEAD
 "# 迷彩綠與 10888 位平頭男子"
+=======
+"# 迷彩綠與 180 位平頭男子"
+>>>>>>> 4d6feeb1b0cd5ca6913ce505d7cea4b1e39f4ccf
 
 st.image('https://images.unsplash.com/photo-1508248467877-aec1b08de376?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80')
 
